@@ -1,0 +1,54 @@
+/* GENERAL */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.green-text {
+    color: #54D1BB;
+}
+
+.white-text {
+    color: #FFFFFF;
+}
+
+.blue-text {
+    color: #2F4076;
+}
+
+.yellow-text {
+    color: #F1C205;
+}
+
+.blue-text {
+    color: #3D1E69;
+}
+
+.grey-text {
+    color: #838282;
+}
+
+
+/* menu */
+
+.logo {
+    width: 155px;
+    height: 116px;
+}
+
+.banner {
+    background: linear-gradient(180deg, #2F4076 0%, rgba(47, 64, 118, 0.84) 100%);
+}
+
+.projects {
+    background: rgba(229, 229, 229, 0.71);
+}
+
+.contact {
+    background: linear-gradient(180deg, #46BEB2 0%, #3A7C95 100%);
+}
+
+.footer {
+    background: rgba(62, 59, 59, 0.88);
+}
