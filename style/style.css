@@ -14,6 +14,13 @@ body {
     margin: 0;
 }
 
+h1{
+    font-size: 60px;
+}
+a{
+    font-size: 24px;
+}
+
 .green-text {
     color: #54D1BB;
 }
@@ -30,8 +37,12 @@ body {
     color: #F1C205;
 }
 
-.blue-text {
+.violet-text {
     color: #3D1E69;
+}
+
+.blue-text {
+    color: 2F4076;
 }
 
 .grey-text {
@@ -48,7 +59,7 @@ body {
 
 .header {
     background: linear-gradient(180deg, #2F4076 0%, rgba(47, 64, 118, 0.84) 100%);
-    padding: 50px 100px;
+    padding: 20px 147px;
     align-items: baseline;
 }
 
@@ -75,15 +86,63 @@ body {
     text-decoration: none;
 }
 
-.row {
+.row-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 500px;
+    margin: 0px 10px;   
+    align-items: center;
+    width: 100%;
+}
+
+.imagem {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;  
+    transform: matrix(0.93, 0.38, -0.37, 0.93, 0, 0);
+    margin: 0px 100px;
+}
+
+.banner-description {
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;   
 }
 
 .projects {
-    background: rgba(229, 229, 229, 0.71);
+    background: rgba(229, 229, 229, 0.71);  
+}
+
+.subtitle {
+    margin: 0px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.row-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    align-items: center;
+    width: 100%;
+    padding: 50px;
+}
+
+.card {
+    width: 280px;
+    height: 352px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.imagem-card{
+    width: 73px;
+    height: 113px;   
 }
 
 .contact {
